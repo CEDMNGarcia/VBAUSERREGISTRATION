@@ -1,22 +1,21 @@
-# Cadastro de Clientes
+# VBA Table Manipulation
 
-Esse arquivo é uma planilha com os dados dos clientes, como:
+This project was created to better understand how to use VBA for table manipulation in Excel.
 
-- Nome  
-- Celular  
-- Data de nascimento  
-- CPF  
-- Endereço completo (CEP, rua, número, bairro, cidade, estado)  
-- Data do cadastro
+## What it does
 
-Também tem alguns campos de controle como ID, ED e EX.
+- Uses VBA to manage and edit tables  
+- Helps practice coding logic directly in Excel
 
-## Sobre o arquivo
+## Why I made it
 
-- O nome do arquivo é CADASTRO_DE_CLIENTE.xlsb  
-- Ele está em formato binário do Excel (.xlsb), mas dá pra abrir normalmente no Excel ou no Python usando pyxlsb.
+I built this to improve my VBA skills and learn how to automate table processes for daily tasks.
 
-## Como usar no Python
+## How to use
+
+1. Open the Excel file  
+2. Enable macros  
+3. Check the VBA code to see how each part works
 
 ```python
 import pandas as pd
